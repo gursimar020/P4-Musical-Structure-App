@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">Mp3 Music</string>
+
+    <string name="detail">Song Details Screen</string>
+    <string name="song_name">Pagg Wala Munda</string>
+    <string name="album_name">Ambarsariya</string>
+    <string name="start_time">1:36</string>
+    <string name="end_time">4:02</string>
+
+    <string name="nowplaying">NOW PLAYING</string>
+    <string name="playlist">PLAYLIST</string>
+
+    <string name="settings_activity">SETTINGS</string>
+    <string name="setting_1">Repeat</string>
+    <string name="setting_2">Shuffle</string>
+    <string name="setting_3">Use as Ringtone</string>
+    <string name="setting_4">Add to Playlist</string>
+
+    <string name="info">Info</string>
+    <string name="add">Add Song</string>
+    <string name="buy">Buy Song</string>
+    <string name="pay1">Netbanking</string>
+    <string name="pay2">Credit Card</string>
+    <string name="pay3">Paytm</string>
+
+    <string name="equalizer_info">Used for frequency-dependent processing of audio signals</string>
+    <string name="playlist_info">Playlist:A collection of Songs in a form of playlist.\n\n Playlist Screen</string>
+    <string name="setting">This is settings page where you can change various things</string>
+    <string name="payment">PAYMENT. Here you can buy new songs of your choice. The song details are displayed below. You can even select various modes for payment.</string>
+
+</resources>

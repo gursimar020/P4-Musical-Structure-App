@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.android.mp3music.Settings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/library"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nowplaying" />
+
+        <Button
+            android:id="@+id/playlist_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/playlist" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/settings_text"
+        style="@style/equilizer1"
+        android:text="@string/settings_activity"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:id="@+id/setting1"
+        style="@style/setting"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/settingstyle"
+            android:text="@string/setting_1" />
+
+        <Switch style="@style/switchstyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setting2"
+        style="@style/setting"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/settingstyle"
+            android:text="@string/setting_2" />
+
+        <Switch style="@style/switchstyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setting3"
+        style="@style/setting"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/settingstyle"
+            android:text="@string/setting_3" />
+
+        <Switch style="@style/switchstyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setting4"
+        style="@style/setting"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/settingstyle"
+            android:text="@string/setting_4" />
+
+        <Switch style="@style/switchstyle" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/setting"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</LinearLayout>
